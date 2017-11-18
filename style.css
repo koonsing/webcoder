@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+.my-body{
+	font-family: "Lato";
+	margin: 0;
+	margin-top: 75px;
+}
+.my-container{
+	font-size: 2rem;
+	/* max-width: 600px; */
+	text-align: right;
+   	color: rgba(235, 19, 19, 0.849);
+	/*background: rgba(255, 255, 255, 0);*/
+	margin-left: 10rem;
+	padding:20px;
+	height: 80vh;
+	background-image:url('galexy_background.jpg');
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 2000px;
+	display: block;
+ 
+}
+.jumbotron{
+	color: rgb(0, 0, 0);
+	background-color:white!important;
+	
+}	
+.my-header{
+	 
+	/* background-image:url('https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1127&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');  */
+	background-image:url('https://images.unsplash.com/photo-1503220317375-aaad61436b1b?auto=format&fit=crop&w=1650&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.my-header2{
+	
+	color:White;
+	font-size: 30px;
+	text-shadow: 2px 2px grey;
+	text-decoration: underline;
+}
+/* to create a break between container */
+.my-container-new{
+	padding:30px;
+}
+
+.my-modal{
+	padding:10px;
+}
+
+.my-pad{
+	margin:auto;
+	padding:10px;
+	display: block;
+}
+
+.my-footer{
+	background-color:gray;
+	padding: 20px;
+	text-color: black;
+}
+.my-footer-text{
+	
+	color:White;
+	
+}
+
+
+.my-parallax{
+	height: 30vh;
+	/* background-image:url('https://images.unsplash.com/photo-1503220317375-aaad61436b1b?auto=format&fit=crop&w=1650&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'); */
+	background-image:url('https://images.unsplash.com/photo-1499952748986-01abb469a8d5?auto=format&fit=crop&w=1662&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    min-height: 500px; 
+	padding: 20px;
+	/* max-height: 00px; */
+}
+
+.my-form{
+	font-family: "Lato";
+	max-width: 400px;
+	padding: 10px;
+	margin: auto;
+	border: 1px solid rgb(249, 249, 252);
+	color: white;
+}
+
+/*1. add margin spacing for top & bottom: 20px */
+.my-form-group{
+top: 20px;
+bottom: 20px;
+}
+
+/*This selector refers to ALL <input> */
+input[type]{
+
+	-webkit-appearance: none; /* removes browser override style on mac */
+	/*2. set the width to fill container: 100% */
+	/*3. increase font size to: 1.5rem */
+	/*4. increase height to: 2rem */
+	width: 100%;
+	font :1.5rem;
+	height:2rem;
+}
+
+/*Select multiple selectors with a comma , */
+/*input[type=text] selects <input type="text"> */
+input[type=text], 
+input[type=email]{
+
+	/*5. remove existing border to: none*/
+	/*6. create an underline effect by setting a new border-bottom to: 1px solid black*/
+	border:none;
+	border-bottom: 1px solid rgb(59, 139, 13);
+}
+
+/*input[type]:focus is a state of being used */
+input[type=text]:focus, 
+input[type=email]:focus{
+
+	/*7. remove the default glow with outline:none */
+	/*8. set the border and text color to: orangered*/
+	outline: none;
+	border-color: orangered;
+	color: rgb(25, 0, 255);
+
+}
+
+/*submit button selector*/
+input[type=submit]{
+	
+	/*9. increase the button height to: 3rem (double font size)*/
+	/*10. remove the bezel with border:none*/
+	/*11. set background color to: black and text to: white */
+
+}
+
+/*hovering state, similar to a:hover */
+input[type=submit]:hover{
+
+	/*12. set background color to: orangered */
+
+}
+
+/*this optional style removes the yellow background of chrome's autofill*/
+input[type]:-webkit-autofill {
+
+	box-shadow: 0 0 0px 1000px white inset;
+	
+}
